@@ -9,9 +9,9 @@ You can use this package as a SCSS file, or use the pre-compiled CSS file.
 
 ### SCSS
 
-#### Import into webpack or other build systemm
+#### Import into webpack or other build systems
 
-You can import it into your project by using the following line:
+You can import it into your webpack, laravel mix, etc. project by using the following line:
 `@import "~@ecwebservices/flat-ui-color-sass/scss/flat-ui-colors"`
 
 This will add the scss file to your project. You can also move it from these files into your scss folder as well.
