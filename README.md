@@ -2,7 +2,7 @@
 This package allows you to use the flat ui colors from https://flatuicolors.com/ in sass, with a css file included as well.
 
 ## Install
-`npm install @ecwebservices/flat-ui-colors-sass`
+`npm install @ecwebservices/flat-ui-color-sass`
 
 ## Usage
 You can use this package as a SCSS file, or use the pre-compiled CSS file.
