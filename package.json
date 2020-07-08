@@ -8,6 +8,10 @@
     "dev": "node-sass scss -o css"
   },
   "author": "ECWebServices",
+  "funding": {
+    "type": "opencollective",
+    "url": "https://opencollective.com/<YOUR-COLLECTIVE>"
+  },
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
