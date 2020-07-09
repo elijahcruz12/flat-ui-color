@@ -12,6 +12,10 @@
     "type": "opencollective",
     "url": "https://opencollective.com/ecwebservices1"
   },
+  "repository": {
+    "type" : "git",
+    "url" : "https://gitlab.com/ecwebservices/flat-ui-color.git"
+  },
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
