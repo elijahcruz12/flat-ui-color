@@ -1,8 +1,6 @@
 image: node
 
 before_script:
-  # ...
-  - php composer.phar install
   - npm install
 
 build sass files:
@@ -20,4 +18,3 @@ test css file usages:
     - cd ../..
     - echo $CSS_DEV_FILES
     - echo $CSS_PROD_FILES
-    - npx csslint
