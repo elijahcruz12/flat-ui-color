@@ -1,10 +1,14 @@
 image: node
 
+before_script:
+  # ...
+  - php composer.phar install
+  - npm install
+
 build sass files:
   stage: build
   script:
-    - npx node-sass scss -o css/prod --source-map true --output-style compressed
-    - node-sass scss -o css/dev --source-map true
+    - npm run build
 
 test css file usages:
   stage: test
