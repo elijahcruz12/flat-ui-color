@@ -51,8 +51,8 @@ $colors: ("turquoise": $turquoise, "green-sea": $green-sea, "emerald": $emerald,
 
 @each $name, $color in $colors {
   .text-#{$name} {
-  color: $color;
-}
+    color: $color;
+  }
 }
 
 @each $name, $color in $colors {
