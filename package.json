@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "node-sass scss -o css/prod --source-map true --output-style compressed && node-sass scss -o css/dev --source-map true"
+    "build": "node-sass scss -o css/prod --source-map true --output-style compressed && node-sass scss -o css/dev --source-map true",
+    "lint": "npx stylelint \"**/*.css\""
   },
   "author": "ECWebServices",
   "funding": {

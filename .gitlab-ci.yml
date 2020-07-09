@@ -13,8 +13,9 @@ test css file usages:
   script:
     - cd css/dev
     - CSS_DEV_FILES=$(find . -type f -name "*.css")
+    - npx csslint $CSS_DEV_FILES
     - cd ../prod
     - CSS_PROD_FILES=$(find . -type f -name "*.css")
+    - npx csslint $CSS_PROD_FILES
     - cd ../..
-    - echo $CSS_DEV_FILES
-    - echo $CSS_PROD_FILES
+    - npm run lint
