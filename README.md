@@ -1,4 +1,7 @@
 # Flat UI Colors
+![Open Collective sponsors](https://img.shields.io/opencollective/sponsors/ecwebservices1?label=Donators&style=for-the-badge) ![Libraries.io dependency status for latest release, scoped npm package](https://img.shields.io/librariesio/release/npm/@ecwebservices/flat-ui-color-sass?style=for-the-badge) ![npm (scoped)](https://img.shields.io/npm/v/@ecwebservices/flat-ui-color-sass?style=for-the-badge)
+
+
 This package allows you to use the flat ui colors from https://flatuicolors.com/ in sass, with a css file included as well.
 
 ## Install
