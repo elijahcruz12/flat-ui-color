@@ -1,0 +1,19 @@
+image: node
+
+build sass files:
+  stage: build
+  script:
+    - npx node-sass scss -o css/prod --source-map true --output-style compressed
+    - node-sass scss -o css/dev --source-map true
+
+test css file usages:
+  stage: test
+  script:
+    - cd css/dev
+    - CSS_DEV_FILES=$(find . -type f -name "*.css")
+    - cd ../prod
+    - CSS_PROD_FILES=$(find . -type f -name "*.css")
+    - cd ../..
+    - echo $CSS_DEV_FILES
+    - echo $CSS_PROD_FILES
+    - npx csslint
