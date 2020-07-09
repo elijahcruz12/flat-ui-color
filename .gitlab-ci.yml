@@ -8,7 +8,7 @@ build sass files:
   script:
     - npm run build
 
-test css file usages:
+test css in own dir:
   stage: test
   script:
     - cd css/dev
@@ -17,5 +17,10 @@ test css file usages:
     - cd ../prod
     - CSS_PROD_FILES=$(find . -type f -name "*.css")
     - npx csslint $CSS_PROD_FILES
-    - cd ../..
+
+test all css:
+  stage: test
+  script:
     - npm run lint
+  rules:
+    - allow_failure: true
