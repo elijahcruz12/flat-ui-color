@@ -47,7 +47,7 @@ $american-river: #636e72;
 
 $dracula-orchid: #2d3436;
 
-$colors: ("light-greenish-blue": $light-greenish-blue, "mint-leaf": $mint-leaf, "faded-poster": $faded-poster, "robins-egg-blue": $robins-egg-blue, "green-darner-tail": $green-darner-tail, "electron-blue": $electron-blue, "shy-moment": $shy-moment, "soothing-breeze": $soothing-breeze, "exodus-fruit": $exodus-fruit, "city-lights": $city-lights, "sour-lemon": $sour-lemon, "bright-yarrow": $bright-yarrow, "first-date": $first-date, "orangeville": $orangeville, "pink-glamour": $pink-glamour, "chi-gong": $chi-gong, "pico-8-pink": $pico-8-pink, "prunus-avium": $prunus-avium, "american-river": $american-river, "dracula-orchid": $dracula-orchid);
+$colors: ("light-greenish-blue": $light-greenish-blue, "mint-leaf": $mint-leaf, "faded-poster": $faded-poster, "robins-egg-blue": $robins-egg-blue, "green-darner-tail": $green-darner-tail, "electron-blue": $electron-blue, "shy-moment": $shy-moment, "soothing-breeze": $soothing-breeze; "exodus-fruit": $exodus-fruit, "city-lights": $city-lights, "sour-lemon": $sour-lemon, "bright-yarrow": $bright-yarrow, "first-date": $first-date, "orangeville": $orangeville, "pink-glamour": $pink-glamour, "chi-gong": $chi-gong, "pico-8-pink": $pico-8-pink, "prunus-avium": $prunus-avium, "american-river": $american-river, "dracula-orchid": $dracula-orchid);
 
 @each $name, $color in $colors {
   .text-#{$name} {

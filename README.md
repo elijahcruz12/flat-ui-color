@@ -17,11 +17,15 @@ You can use this package as a SCSS file, or use the pre-compiled CSS file.
 You can import it into your webpack, laravel mix, etc. project by using the following line:
 `@import "~@ecwebservices/flat-ui-color-sass/scss/flat-ui-colors"`
 
+If your using another pallete (eg. American pallete), just add it's name to it: 
+
+`@import "~@ecwebservices/flat-ui-color-sass/scss/flat-ui-colors-american"`
+
 This will add the scss file to your project. You can also move it from these files into your scss folder as well.
 
 ### CSS
 
-You can use the precompiled css by moving it from the `css` to your own asset folders.
+You can use the precompiled css by moving it from the `css` to your own asset folders. The compressed and the development versions are named the exact same, but in their own files with maps included. They are seperated by `dev` and `prod` folders.
 
 
 ## Features
@@ -56,6 +60,8 @@ Inside our SCSS file, we have included two classes for each color, one to change
 
 ## Colors
 
+Please note this list is for the default color palette. To get the colors for any other version, check out the flat ui colors to get the names (eg. pico-8 pink (`pico-8-pink`)) for any other pallete that is already created.
+
 1.  Turquoise: `turquoise`
 2.  Green Sea: `green-sea`
 3.  Emerald: `emerald`
@@ -76,6 +82,13 @@ Inside our SCSS file, we have included two classes for each color, one to change
 18. Silver: `silver`
 19. Concrete: `concrete`
 20. Asbestos: `asbestos`
+
+# Available Palletes
+
+There are currently **2** available palletes:
+
+- Original
+- American
 
 # To Come
 We have plans to add things like more Flat UI Color Pallettes, such as the British Pallette, American Pallette, and more. We also have plans to add a LESS version, and possibly have other CSS Preprocessors in one package.
