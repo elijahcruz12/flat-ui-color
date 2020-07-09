@@ -18,7 +18,9 @@
     "url": "https://gitlab.com/ecwebservices/flat-ui-color.git"
   },
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "stylelint-config-sass-guidelines": "^7.0.0"
+  },
   "devDependencies": {
     "node-sass": "^4.14.1",
     "stylelint": "^13.6.1",
